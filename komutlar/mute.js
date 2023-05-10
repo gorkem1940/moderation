@@ -3,10 +3,10 @@ const db = require('croxydb');
 const ms = require("ms");
 exports.run = async (client, message, args) => {
   const embed = (content) => message.channel.send(new MessageEmbed().setAuthor(message.member.displayName, message.author.avatarURL({dynamic: true})).setColor("BLACK").setDescription(content));
-  if (!message.member.roles.cache.has("848131645079814174") && !message.member.hasPermission("ADMINISTRATOR")) return embed(`Bu komutu kullanmak için ayarlanan yetkiye sahip değilsiniz!`);
+  if (!message.member.roles.cache.has("848131645079814174") && !message.member.hasPermission("ADMINISTRATOR")) return embed(`Bu komutu kullanmak için ayarlanan yetkiye sahip değilsiniz.`);
   
    const victim = message.guild.member(message.mentions.members.first() || message.guild.members.cache.get(args[0]));
-   if (!victim) return embed(`Lütfen doğru bir şekilde komutu kullanın teşekkürler.\n\n Örnek: \`.mute @tanrısız/ID\ süre\``); 
+   if (!victim) return embed(`Lütfen doğru bir şekilde komutu kullanın teşekkürler.\n\n Örnek: \`.mute @gorkem/ID\ süre\``); 
   
    var reason, emojis = ["<:c_mute:868108704640278529>", "<:v_mute:868108704409587733>"], filter = (reaction, user) => emojis.includes(reaction.emoji.name) && user.id === message.author.id;
    if (emojis.length < 1) return embed(`Gerekli emojiler belirtilmiş değil.`);
