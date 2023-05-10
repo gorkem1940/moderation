@@ -342,7 +342,7 @@ const knaveqwe = [
   'Kalbime giden yolu aydınlatıyor gözlerin.  Sadece sen görebilirsin kalbimi. Ve sadece ben hissedebilirim bana karşı olan hislerini.',
   'Onu Bunu Boşver de bize gel 2 bira içelim.',
   'Taş gibi kızsın ama okey taşı… Elden elde gidiyorsun farkında değilsin.',
-  'Tanrısız seni çok sevdi...',
+  'Görkem seni çok sevdi...',
   'Mucizelerden bahsediyordum.',
 ];
 
