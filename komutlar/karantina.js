@@ -30,8 +30,8 @@ Cardin.roles.cache.forEach(r => {
   • Sebebi: \`${reason}\`
   • Kanal: \`${message.channel.name}\`
     `)
-    .setFooter(`Tanrısız Jail Sistemi || Arkadaş Jaile Gönderilmiştir ^^`)
-    message.channel.send(Tanrısız)
+    .setFooter(`Görkem Jail Sistemi || Arkadaş Jaile Gönderilmiştir ^^`)
+    message.channel.send(Görkem)
     message.react('✅')
 
              const Tanrısızlog = new Discord.MessageEmbed()
@@ -53,7 +53,7 @@ Cardin.roles.cache.forEach(r => {
   • Jaile Atılan: <@${member.id}> (\`${member.id}\`)
   • Sebebi: \`${reason}\`
    `)
-   .setFooter(`Tanrısız Jail Bilgi`)
+   .setFooter(`Görkem Jail Bilgi`)
    client.channels.cache.get('845672271636201505').send(bilgi)
 
    
@@ -69,5 +69,5 @@ exports.conf = {
 };
 
 exports.help = {
-    name: 'Tanrısız Jail Sistemi',
+    name: 'Görkem Jail Sistemi',
 };
