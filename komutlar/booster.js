@@ -15,7 +15,7 @@ exports.run = async (client, message, args, ayar, emoji) => {
 .setColor(renk)
     .setDescription(`**\`•\` <@${message.author.id}>, bu komutu sadece <#${kanalid}> kanalin da kullanabilirsin.**`)
 .setTimestamp()
-.setFooter(`Tanrısızaskm`, "https://cdn.discordapp.com/emojis/785950806384836619.gif?v=1%22"))
+.setFooter(`Görkemaskim`, "https://cdn.discordapp.com/emojis/785950806384836619.gif?v=1%22"))
 message.react(iptal);
 
   let boosternick = args.slice(0).join(' ')
@@ -26,7 +26,7 @@ message.react(iptal);
     .setTimestamp()
     .setColor(renk)
     .setDescription(`**\`•\` Nickin adın başarıyla \`${tag} ${boosternick}\` olarak değiştirildi.**`) // tagi göstermesse embedde ${boosternick}'in basina ${tag} ekleyin yani; ${tag} ${boosternick}
-    .setFooter(`Tanrısızaskm`, "https://cdn.discordapp.com/emojis/785950806384836619.gif?v=1%22")
+    .setFooter(`Görkemaskim`, "https://cdn.discordapp.com/emojis/785950806384836619.gif?v=1%22")
     message.channel.send(Savage)
     message.react(onay);
 }
